@@ -5,7 +5,7 @@ This is a [php-require](https://github.com/ricallinson/php-require) module which
     <?php
     require("../node_modules/php-require/index.php");
 
-    $app = $require("../");
+    $app = $require("php-slim");
 
     $app->get('/hello/:name', function ($name) {
         echo "Hello, $name";
